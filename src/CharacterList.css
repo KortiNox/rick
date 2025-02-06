@@ -1,0 +1,46 @@
+.character-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 150px;
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  transition: transform 0.2s;
+}
+
+.character-card:hover {
+  transform: scale(1.05);
+}
+
+.character-card img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.character-name {
+  font-size: 1.2em;
+  padding: 10px;
+  margin: 0;
+}
+
+.character-info {
+  font-size: 0.8em;
+  padding: 5px;
+  margin: 0;
+}
+
+.status {
+  font-weight: bold;
+}
+
+.status.alive {
+  color: green;
+}
+
+.status.dead {
+  color: red;
+}
+
+.status.unknown {
+  color: gray;
+}
