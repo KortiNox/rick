@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import SearchBar from './SearchBar.js';
 import CharacterList from './CharacterList.jsx';
 import { Character } from './interface/Character.js';

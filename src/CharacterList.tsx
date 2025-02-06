@@ -1,5 +1,3 @@
-import React from 'react';
-import { Character } from './interface/Character.js';
 import './CharacterList.css';
 import { CharacterListProps } from './interface/CharacterListProps.js';
 
